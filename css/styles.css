@@ -20,7 +20,7 @@ p {
 .big-heading {
   font-size: 3.2rem;
   line-height: 1.5;
-  font-weight: bolder;
+  font-weight: bold;
   text-align: left;
 }
 .section-heading {
@@ -29,7 +29,7 @@ p {
 }
 
 .container-fluid1 {
-  padding: 0 15%;
+  padding: 0 10%;
 }
 
 /*Navigation Bar*/
@@ -81,7 +81,7 @@ p {
 }
 
 #features {
-  padding: 5% 15%;
+  padding: 5% 10%;
 
 }
 
@@ -106,7 +106,7 @@ p {
 
 .carousel-item {
   height: 500px;
-  padding: 5% 15%;
+  padding: 5% 10%;
 
 }
 .carousel-inner {
@@ -149,7 +149,7 @@ p {
 
   background-color: #C81625;
   color: #fdba9a;
-  padding: 3% 15%;
+  padding: 3% 10%;
 }
 .cta-text {
   font-weight: bold;
