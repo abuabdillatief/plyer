@@ -1,6 +1,7 @@
 body {
   font-family: "Montserrat";
   font-weight: 400;
+  text-align: center;
 }
 
 #title {
@@ -8,26 +9,23 @@ body {
   color: #fdba9a;
 }
 
-h1 {
+h1, h2, h3,  {
   font-family: 'Montserrat';
-  font-size: 3rem;
-  line-height: 1.5;
-
-}
-
-h2 {
-  font-family: 'Montserrat';
-  font-size: 3em;
-  line-height: 1.5;
-
-}
-
-h3 {
-  font-size: 1.5rem;
 }
 
 p {
   color: #8f8f8f;
+}
+
+.big-heading {
+  font-size: 3.2rem;
+  line-height: 1.5;
+  font-weight: bold;
+  text-align: left;
+}
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .container-fluid1 {
@@ -75,21 +73,27 @@ p {
   color: #DA2C2D;
 }
 
+.featurestext {
+  font-size: 1.5rem;
+}
 .feature-box {
   padding: 4.5%;
 }
 
 #features {
   padding: 5% 15%;
-  text-align: center;
+
 }
 
 /*Testimonials Section*/
 #testimonials {
 
-  text-align: center;
+
   background-color: #C81625;
   color: #fdba9a;
+}
+.testimonial-text {
+  font-size: 3rem;
 }
 .testimonial-image {
   width: 10%;
@@ -106,14 +110,14 @@ p {
 
 }
 .carousel-inner {
-  text-align: center;
+
 }
 
 /*Press Section*/
 
 #press {
   background-color: #C81625;
-  text-align: center;
+
   padding-bottom: 5%;
 
 }
@@ -124,7 +128,7 @@ p {
 
 /* Pricing Section*/
 #pricing {
-  text-align: center;
+
   padding: 100px;
 }
 .card-deck {
@@ -134,29 +138,34 @@ p {
 .card {
   margin: 3% 0;
 }
-
+.price-tag {
+  font-size: 3rem;
+}
+ .subscription-name {
+   font-size: 1.5rem;
+ }
 /*Call To Action*/
 #cta {
-  text-align: center;
+
   background-color: #C81625;
   color: #fdba9a;
-  height: auto;
+  padding: 3% 15%;
 }
 .cta-text {
   font-weight: bold;
-  margin: 3% auto;
   font-size: 3rem;
-  width: 40%;
+  width: 60%;
+  margin: auto;
 }
 .cta-download-btn {
-  margin: 2% 1%;
+  margin: 3% 1%;
 }
 
 
 /*Footer*/
 
 #footer {
-  text-align: center;
+
 
 }
 .footer-icon {
@@ -164,12 +173,23 @@ p {
 }
 
 
-@media (max-width:880px) {
+@media (max-width:992px) {
 
+.nav-link {
+  text-align: right;
+}
+  #testimonials {
+    font-size: 15px;
+  }
+  .big-heading {
+    font-size: 3.5rem;
+    text-align: center;
+  }
   #title {
     text-align: center;
   }
-  #testimonials {
-    font-size: 15px;
+  .cta-text {
+    width: 100%;
+    margin-bottom: 3%;
   }
 }
